@@ -1,0 +1,17 @@
+.scale-number {
+    font-size: 15px;
+    color: #C0C4CC;
+    font-weight: bold;
+    width: 25px;
+}
+.email-name {
+    flex: 1 1;
+    margin-left: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 16px;
+}
+
+.scale-contact:first-child{
+    margin-top: -5px;
+}

@@ -1,0 +1,35 @@
+.wp-menu{
+    width: 250px;
+    height: 100vh;
+    background-color: #232C51;
+}
+.wp-content{
+    width: calc(100% - 250px);
+    background-color: #F2F3F5;
+    padding: 20px;
+}
+.performance-page{
+    display: flex;
+}
+.content{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #fff;
+    padding-bottom: 16px;
+}
+.perform-content {
+    padding: 20px;
+}
+.perform-content {
+    display: flex;
+}
+.statis-scale {
+    display: flex;
+}
+.scale-content {
+    padding-left: 16px;
+    width: 67%;
+}
+.scale-diagram{
+    padding-left: 16px;
+}

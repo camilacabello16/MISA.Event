@@ -1,0 +1,30 @@
+import React from "react";
+
+const SVG = ({
+  style = {},
+  fill="#F5F6F8",
+  width="24", 
+  height="24", 
+  viewBox="0 0 24 24"
+  }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" style={style} width={width} height={height} viewBox={viewBox}>
+        <g id="Group_30717" data-name="Group 30717" transform="translate(-19 -16)">
+            <g id="Group_30013" data-name="Group 30013" transform="translate(2 -3)">
+            <rect id="Rectangle_15920" data-name="Rectangle 15920" width="4" height="4" transform="translate(20 22)" fill={fill}/>
+            <rect id="Rectangle_15925" data-name="Rectangle 15925" width="4" height="4" transform="translate(20 29)" fill={fill}/>
+            <rect id="Rectangle_15928" data-name="Rectangle 15928" width="4" height="4" transform="translate(20 36)" fill={fill}/>
+            <rect id="Rectangle_15921" data-name="Rectangle 15921" width="4" height="4" transform="translate(27 22)" fill={fill}/>
+            <rect id="Rectangle_15924" data-name="Rectangle 15924" width="4" height="4" transform="translate(27 29)" fill={fill}/>
+            <rect id="Rectangle_15927" data-name="Rectangle 15927" width="4" height="4" transform="translate(27 36)" fill={fill}/>
+            <rect id="Rectangle_15922" data-name="Rectangle 15922" width="4" height="4" transform="translate(34 22)" fill={fill}/>
+            <rect id="Rectangle_15923" data-name="Rectangle 15923" width="4" height="4" transform="translate(34 29)" fill={fill}/>
+            <rect id="Rectangle_15926" data-name="Rectangle 15926" width="4" height="4" transform="translate(34 36)" fill={fill}/>
+            </g>
+            <rect id="Rectangle_16500" data-name="Rectangle 16500" width="24" height="24" transform="translate(19 16)" fill="none"/>
+        </g>
+    </svg>
+  
+  );
+
+
+export default SVG;

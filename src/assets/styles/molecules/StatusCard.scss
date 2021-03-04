@@ -1,0 +1,54 @@
+.StatusCard {
+    width: 100%;
+    height: 457px;
+    
+}
+.img-card {
+    width: 100%;
+    height: 232px;
+    overflow: hidden;
+}
+.status-card {
+    height: calc(100% - 232px);
+    width: 100%;
+    border: 1px solid #E5E8EC;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.flex-1{
+    flex: 1;
+}
+.status-card-title {
+    display: flex;
+}
+.sc-title {
+    font-family: 'Google Sans';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    padding: 14px 0 0 16px;
+}
+.sc-content {
+    font-family: 'Google Sans';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    padding-top: 14px;
+}
+.bg-card {
+    background-color: #E5E8EC;
+}
+.br-8 {
+    border-radius: 8px;
+}
+.pd-card {
+    padding: 8px 8px 7px 8px;
+}
+.sc-content > div {
+    width: 50px;
+    height: 32px;
+    align-items: center;
+}
+.status-content {
+    width: 33%;
+}

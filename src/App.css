@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./assets/fonts/GoogleSans-Black.eot');
+    src: url('./assets/fonts/GoogleSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/GoogleSans-Black.woff2') format('woff2'),
+        url('./assets/fonts/GoogleSans-Black.woff') format('woff'),
+        url('./assets/fonts/GoogleSans-Black.ttf') format('truetype'),
+        url('./assets/fonts/GoogleSans-Black.svg#GoogleSans-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./assets/fonts/GoogleSans-Regular.eot');
+    src: url('./assets/fonts/GoogleSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/GoogleSans-Regular.woff2') format('woff2'),
+        url('./assets/fonts/GoogleSans-Regular.woff') format('woff'),
+        url('./assets/fonts/GoogleSans-Regular.ttf') format('truetype'),
+        url('./assets/fonts/GoogleSans-Regular.svg#GoogleSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./assets/fonts/GoogleSans-Light.eot');
+    src: url('./assets/fonts/GoogleSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/GoogleSans-Light.woff2') format('woff2'),
+        url('./assets/fonts/GoogleSans-Light.woff') format('woff'),
+        url('./assets/fonts/GoogleSans-Light.ttf') format('truetype'),
+        url('./assets/fonts/GoogleSans-Light.svg#GoogleSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./assets/fonts/GoogleSans-Bold.eot');
+    src: url('./assets/fonts/GoogleSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/GoogleSans-Bold.woff2') format('woff2'),
+        url('./assets/fonts/GoogleSans-Bold.woff') format('woff'),
+        url('./assets/fonts/GoogleSans-Bold.ttf') format('truetype'),
+        url('./assets/fonts/GoogleSans-Bold.svg#GoogleSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./assets/fonts/GoogleSans-Italic.eot');
+    src: url('./assets/fonts/GoogleSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/GoogleSans-Italic.woff2') format('woff2'),
+        url('./assets/fonts/GoogleSans-Italic.woff') format('woff'),
+        url('./assets/fonts/GoogleSans-Italic.ttf') format('truetype'),
+        url('./assets/fonts/GoogleSans-Italic.svg#GoogleSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./assets/fonts/GoogleSans-BlackItalic.eot');
+    src: url('./assets/fonts/GoogleSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/GoogleSans-BlackItalic.woff2') format('woff2'),
+        url('./assets/fonts/GoogleSans-BlackItalic.woff') format('woff'),
+        url('./assets/fonts/GoogleSans-BlackItalic.ttf') format('truetype'),
+        url('./assets/fonts/GoogleSans-BlackItalic.svg#GoogleSans-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./assets/fonts/GoogleSans-MediumItalic.eot');
+    src: url('./assets/fonts/GoogleSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/GoogleSans-MediumItalic.woff2') format('woff2'),
+        url('./assets/fonts/GoogleSans-MediumItalic.woff') format('woff'),
+        url('./assets/fonts/GoogleSans-MediumItalic.ttf') format('truetype'),
+        url('./assets/fonts/GoogleSans-MediumItalic.svg#GoogleSans-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./assets/fonts/GoogleSans-BoldItalic.eot');
+    src: url('./assets/fonts/GoogleSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/GoogleSans-BoldItalic.woff2') format('woff2'),
+        url('./assets/fonts/GoogleSans-BoldItalic.woff') format('woff'),
+        url('./assets/fonts/GoogleSans-BoldItalic.ttf') format('truetype'),
+        url('./assets/fonts/GoogleSans-BoldItalic.svg#GoogleSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./assets/fonts/GoogleSans-LightItalic.eot');
+    src: url('./assets/fonts/GoogleSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/GoogleSans-LightItalic.woff2') format('woff2'),
+        url('./assets/fonts/GoogleSans-LightItalic.woff') format('woff'),
+        url('./assets/fonts/GoogleSans-LightItalic.ttf') format('truetype'),
+        url('./assets/fonts/GoogleSans-LightItalic.svg#GoogleSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./assets/fonts/GoogleSans-ThinItalic.eot');
+    src: url('./assets/fonts/GoogleSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/GoogleSans-ThinItalic.woff2') format('woff2'),
+        url('./assets/fonts/GoogleSans-ThinItalic.woff') format('woff'),
+        url('./assets/fonts/GoogleSans-ThinItalic.ttf') format('truetype'),
+        url('./assets/fonts/GoogleSans-ThinItalic.svg#GoogleSans-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./assets/fonts/GoogleSans-Medium.eot');
+    src: url('./assets/fonts/GoogleSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/GoogleSans-Medium.woff2') format('woff2'),
+        url('./assets/fonts/GoogleSans-Medium.woff') format('woff'),
+        url('./assets/fonts/GoogleSans-Medium.ttf') format('truetype'),
+        url('./assets/fonts/GoogleSans-Medium.svg#GoogleSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('./assets/fonts/GoogleSans-Thin.eot');
+    src: url('./assets/fonts/GoogleSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/GoogleSans-Thin.woff2') format('woff2'),
+        url('./assets/fonts/GoogleSans-Thin.woff') format('woff'),
+        url('./assets/fonts/GoogleSans-Thin.ttf') format('truetype'),
+        url('./assets/fonts/GoogleSans-Thin.svg#GoogleSans-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Google Sans'!important;
+    line-height: 1!important;
+}
+
+p{
+    margin: 0;
 }

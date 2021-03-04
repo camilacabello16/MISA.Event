@@ -1,0 +1,63 @@
+.wp-diageam{
+    border: 1px solid #E5E8EC;
+    border-radius: 8px;
+    padding: 16px;
+    width: 66%;
+}
+.diagram-header-title{
+    font-size: 14px;
+    font-family: 'Google Sans';
+    font-weight: 600;
+}
+.diagram-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.diagram-header-select select {
+    border: none;
+    outline: none;
+}
+.item-line{
+    width: 16px;
+    height: 3px;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+.line-open{
+    background-color: #13CD3C;
+}
+.line-click{
+    background-color: #4D53D9;
+}
+.line-hint {
+    display: flex;
+    margin-top: 16px;
+}
+.line-hint-item {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.diagram-content{
+    margin-top: 16px;
+}
+#chartjs-tooltip{
+    position: absolute;
+    margin-top: -85px;
+    margin-left: -55px;
+    background-color: #232C51;
+    border-radius: 8px;
+    padding: 12px 26px;
+    color: #fff;
+}
+
+#chartjs-tooltip table thead tr th{
+    font-size: 14px;
+}
+
+#chartjs-tooltip table tbody tr td{
+    font-size: 16px;
+    font-family: 'Google Sans';
+    font-weight: 600;
+}

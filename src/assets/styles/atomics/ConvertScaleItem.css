@@ -1,0 +1,44 @@
+.scale-line{
+    position: relative;
+    height: 8px;
+    flex: 1;
+    background-color: #E5E8EC;
+    border-radius: 4px;
+}
+.scale-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 17px;
+    margin-top: 16px;
+}
+.scale-item:last-child{
+    margin-bottom: 0px;
+}
+.scale-item-txt {
+    width: 30%;
+}
+
+.scale-line-percent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    border-radius: 8px;
+    width: 0;
+    transition: width 1s linear;
+    transition-delay: 2s;
+}
+
+.scale-percent {
+    width: 10%;
+    text-align: right;
+}
+
+.scale-line-container svg {
+    position: absolute;
+}
+
+.contact-item {
+    margin-bottom: 18px;
+}

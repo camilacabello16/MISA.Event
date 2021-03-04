@@ -1,0 +1,20 @@
+.contact-header {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-contact {
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 3px 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.contact-type{
+    background-color: #F2F3F5;
+    border-radius: 6px;
+}
+.active-btn-contact{
+    background-color: #FF82B4;
+    color: #fff;
+}
