@@ -1,0 +1,28 @@
+.wp-btn-setting {
+    padding: 24px;
+    padding-top: 8px;
+}
+
+.btn-setting-function{
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: 'Google Sans';
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-save{
+    margin-right: 8px;
+    background-image: linear-gradient(to right ,#FF82B4, #8723DC);
+    color: #fff;
+}
+
+.btn-cancel{
+    background-color: #E5E8EC;
+
+}

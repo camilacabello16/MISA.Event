@@ -1,0 +1,35 @@
+.column-chosen{
+    width: 50%;
+    padding: 24px;
+}
+
+.column-chosen-txt{
+    font-size: 16px;
+    font-family: 'Google Sans';
+    font-weight: bold;
+}
+
+.chosen-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.chosen-item-blank {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #FF82B4;
+    border-radius: 6px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.chosen-item-title{
+    font-size: 14px;
+}
+
+.chosen-item-box{
+    cursor: pointer;
+}

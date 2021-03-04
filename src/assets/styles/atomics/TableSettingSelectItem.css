@@ -1,0 +1,14 @@
+.select-item {
+    display: flex;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 12px;
+    border: 1px solid #E5E8EC;
+}
+
+.select-item-checkbox svg{
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.wp-search {
+    position: relative;
+    padding: 0 24px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 34px;
+    transform: translateY(-50%);
+    bottom: 0;
+}
+
+.wp-search input {
+    outline: none;
+    border: 1px solid #D2D4DB;
+    border-radius: 6px;
+    padding: 8px 6px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.wp-search input::placeholder{
+    font-size: 14px;
+    color: #999DAB;
+}

@@ -1,0 +1,38 @@
+.table-select {
+    width: 50%;
+    padding-top: 24px;
+    background-color: #F2F3F5;
+    padding-bottom: 0;
+}
+
+.wp-select-item {
+    margin-top: 16px;
+    overflow-y: scroll;
+    height: 445px;
+    position: relative;
+    padding-right: 8px;
+    padding-left: 24px;
+    margin-right: 8px;
+}
+
+.wp-select-item::-webkit-scrollbar {
+    width: 8px;
+}
+.wp-select-item::-webkit-scrollbar-thumb {
+    background: #D2D4DB;
+    border-radius: 4px;
+}
+
+.btn-create-feature{
+    padding: 14px 24px;
+}
+
+.btn-create-feature p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.btn-create-feature p span{
+    color: #00C8C8;
+    cursor: pointer;
+}
