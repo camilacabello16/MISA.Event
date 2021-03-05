@@ -5,7 +5,7 @@ import TableSetting from './components/sections/TableSetting';
 
 function App() {
   return (
-    // <PerformencePage />
+    //<PerformencePage />
     <TableSetting />
   );
 }
