@@ -12,3 +12,8 @@
 .select-item-checkbox svg{
     cursor: pointer;
 }
+
+.select-item-name{
+    -webkit-user-select: none;
+    font-size: 14px;
+}

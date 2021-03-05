@@ -29,6 +29,7 @@
 
 .chosen-item-title{
     font-size: 14px;
+    -webkit-user-select: none;
 }
 
 .chosen-item-box{
